@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "logtest"
+version = "0.1.0"
+description = ""
+authors = ["flower_chae <flower_chae@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "0.111.0"
+elasticsearch = "8.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
